@@ -28,6 +28,10 @@ pnpm dev
 
 Open **http://localhost:3101**
 
+### Collaborator sees "Failed to fetch"?
+
+The UI on `localhost:3101` does **not** include the APIs. Either run kernel + domain locally ([Collaborator setup](docs/COLLABORATOR_LOCAL_SETUP.md)) or set `NEXT_PUBLIC_PLATFORM_RUNTIME=false` in `.env.local` for demo mode.
+
 ### Environment variables
 
 | Variable | Description |
