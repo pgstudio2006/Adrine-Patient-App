@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Adrine Patient",
+    "slug": "adrine-patient",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "adrine-patient",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.adrine.patient"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0d9488"
+      },
+      "package": "com.adrine.patient"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-status-bar"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
